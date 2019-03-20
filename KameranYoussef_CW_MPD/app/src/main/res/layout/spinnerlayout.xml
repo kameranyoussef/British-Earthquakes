@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Name                 Kameran Youssef -->
+<!-- Student ID           S1038287 -->
+<!-- Programme of Study   Computing -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/imageView_Spinner_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_scotland" />
+
+    <TextView
+        android:id="@+id/Spinner_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_Spinner_icon"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toEndOf="@+id/imageView_Spinner_icon"
+        android:gravity="center"
+        android:text="Scotland"
+        android:textColor="@android:color/black"
+        android:textSize="12dp" />
+
+</RelativeLayout>

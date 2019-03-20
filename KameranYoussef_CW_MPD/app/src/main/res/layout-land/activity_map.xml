@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Name                 Kameran Youssef -->
+<!-- Student ID           S1038287 -->
+<!-- Programme of Study   Computing -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/ic_title"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_title" />
+
+        <ImageView
+            android:id="@+id/ic_magnitude"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_magnitude" />
+
+        <ImageView
+            android:id="@+id/ic_depth"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_depth" />
+
+        <ImageView
+            android:id="@+id/ic_category"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_category" />
+
+        <ImageView
+            android:id="@+id/ic_date"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_date" />
+
+        <ImageView
+            android:id="@+id/ic_time"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_time" />
+
+        <ImageView
+            android:id="@+id/ic_copyright"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_copyright" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Backbtn"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_cancel"
+        android:onClick="Backbtn" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/PageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/TitleBackground"
+            android:gravity="center"
+            android:text="Text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17dp"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
